@@ -17,12 +17,12 @@ Bengaluru is one of India's major cities, renowned for its vibrant culture, dive
 To better understand the culinary landscape of Bengaluru, an exploratory data analysis was conducted on the restaurants listed on Zomato, a popular restaurant search and discovery platform. The data was analyzed to uncover key trends in the restaurant industry, such as the most popular cuisines and pricing, as well as the most popular restaurants and their ratings. Additionally, the analysis explored geographic trends in the restaurant industry, including the most popular neighbourhoods and restaurant types.
 ***
 ## ⏳Data Source
-[Travel Package Data](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants)
+[Zomato Bangalore Restaurants](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants)
 ***
 ## Problem Statement
 To predict the rating of the restaurant.
 ***
-## 📷 Demo Photos
+## 📷Demo Photos
 <img width="1006" alt="tour_package" src="https://user-images.githubusercontent.com/92681972/232985096-7026b3ec-d469-442b-beb4-f5209d08acf9.png">
  Our Website will be look like and when we hit the submit button prediction will happen. adn output will be that customer will take the package or customer will not the package.
  

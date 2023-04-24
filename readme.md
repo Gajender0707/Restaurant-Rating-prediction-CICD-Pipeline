@@ -1,0 +1,4 @@
+Context
+
+Bengaluru is one of India's major cities, renowned for its vibrant culture, diverse cuisine, and vibrant nightlife. With its bustling restaurant scene, it's no wonder that locals and tourists alike flock to the city to experience the gastronomical delights on offer.
+To better understand the culinary landscape of Bengaluru, an exploratory data analysis was conducted on the restaurants listed on Zomato, a popular restaurant search and discovery platform. The data was analyzed to uncover key trends in the restaurant industry, such as the most popular cuisines and pricing, as well as the most popular restaurants and their ratings. Additionally, the analysis explored geographic trends in the restaurant industry, including the most popular neighbourhoods and restaurant types.

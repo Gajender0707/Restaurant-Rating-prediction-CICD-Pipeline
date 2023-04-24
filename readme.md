@@ -13,17 +13,14 @@
 
 ***
 ## General info
-"Visit with us". company wants to enable and establish a viable business model to expand the customer base. One of the ways to expand the customer base is to introduce a new offering of packages. Currently, there are 5 types of packages the company is offering - Basic, Standard, Deluxe, Super Deluxe, King. Looking at the data of the last year, we observed that 18% of the customers purchased the packages. However, the marketing cost was quite high because customers were contacted at random without looking at the available information.The company is now planning to launch a new product i.e. Wellness Tourism Package. Wellness Tourism is defined as Travel that allows the traveler to maintain, enhance or kick-start a healthy lifestyle, and support or increase one's sense of well-being.However, this time company wants to harness the available data of existing and potential customers to make the marketing expenditure more efficient.
-
-We need to analyze the customers' data and information to provide recommendations to the Policy Maker and Marketing Team and also build a model to predict the potential customer who is going to purchase the newly introduced travel package.
+Bengaluru is one of India's major cities, renowned for its vibrant culture, diverse cuisine, and vibrant nightlife. With its bustling restaurant scene, it's no wonder that locals and tourists alike flock to the city to experience the gastronomical delights on offer.
+To better understand the culinary landscape of Bengaluru, an exploratory data analysis was conducted on the restaurants listed on Zomato, a popular restaurant search and discovery platform. The data was analyzed to uncover key trends in the restaurant industry, such as the most popular cuisines and pricing, as well as the most popular restaurants and their ratings. Additionally, the analysis explored geographic trends in the restaurant industry, including the most popular neighbourhoods and restaurant types.
 ***
 ## ⏳Data Source
-[Travel Package Data](https://www.kaggle.com/code/yogidsba/travelpackageprediction-ensemble-techniques/input)
+[Travel Package Data](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants)
 ***
 ## Problem Statement
-To predict which customer is more likely to purchase the newly introduced travel package
-Which variables are most significant.
-Which segment of customers should be targeted more.
+To predict the rating of the restaurant.
 ***
 ## 📷 Demo Photos
 <img width="1006" alt="tour_package" src="https://user-images.githubusercontent.com/92681972/232985096-7026b3ec-d469-442b-beb4-f5209d08acf9.png">
@@ -73,7 +70,3 @@ dill
 
 ## 🎯Project Created BY
 [@Gajender](https://linkedin.com/in/gajender07)
-
-
-Bengaluru is one of India's major cities, renowned for its vibrant culture, diverse cuisine, and vibrant nightlife. With its bustling restaurant scene, it's no wonder that locals and tourists alike flock to the city to experience the gastronomical delights on offer.
-To better understand the culinary landscape of Bengaluru, an exploratory data analysis was conducted on the restaurants listed on Zomato, a popular restaurant search and discovery platform. The data was analyzed to uncover key trends in the restaurant industry, such as the most popular cuisines and pricing, as well as the most popular restaurants and their ratings. Additionally, the analysis explored geographic trends in the restaurant industry, including the most popular neighbourhoods and restaurant types.

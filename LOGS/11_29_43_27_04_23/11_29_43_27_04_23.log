@@ -1,0 +1,8 @@
+2023-04-27 11:29:43,136 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-27 11:29:44,940 - root - INFO-14- give the row data,train and test path to store the data.
+2023-04-27 11:29:44,990 - mysql.connector - INFO-66- package: mysql.connector.plugins
+2023-04-27 11:29:44,990 - mysql.connector - INFO-67- plugin_name: caching_sha2_password
+2023-04-27 11:29:44,991 - mysql.connector - INFO-71- AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-04-27 11:29:45,074 - root - INFO-8- Lineno find
+2023-04-27 11:29:45,074 - root - INFO-12- Set the Error message .
+2023-04-27 11:29:45,100 - root - INFO-22- Create the function to return the error message..

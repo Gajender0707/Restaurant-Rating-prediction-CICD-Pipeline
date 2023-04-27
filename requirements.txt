@@ -5,4 +5,5 @@ matplotlib
 xgboost
 scikit-learn
 dill
+mysql-connector-python
 # -e .

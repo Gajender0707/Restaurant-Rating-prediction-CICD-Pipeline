@@ -4,6 +4,7 @@ import os
 from dataclasses import dataclass
 import pandas as pd
 from sklearn.model_selection import train_test_split
+import mysql.connector as connection
 
 @dataclass
 class DataIngestionConfig:
@@ -20,7 +21,15 @@ class DataIngestion:
         
     def Initiate_data_ingestion(self):
         try:
-            data=pd.read_csv(r"C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\data\Zomato_5k.csv")
+
+            # data=pd.read_csv(r"C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\data\Zomato_5k.csv")
+            mydb = connection.connect(host="localhost", database = 'zomato',user="root", passwd="Gajender@123",use_pure=True)
+            logging.info("set the connection with the mysql for read the data")
+            query = "select online_order,book_table,rate,votes,rest_type,cost,type,city from zomato.zomato_5k;"
+            logging.info(f"select the column which we need for the dataset: {query}")
+            result_dataFrame = pd.read_sql(query,mydb)
+            mydb.close()
+            data=result_dataFrame
             logging.info("read the data")
             train_data,test_data=train_test_split(data,test_size=0.2,random_state=42)
             logging.info("split the data into train and test")

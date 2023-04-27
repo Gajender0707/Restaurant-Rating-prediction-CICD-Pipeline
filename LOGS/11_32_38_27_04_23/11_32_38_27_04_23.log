@@ -1,0 +1,11 @@
+2023-04-27 11:32:38,944 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-27 11:32:40,731 - root - INFO-14- give the row data,train and test path to store the data.
+2023-04-27 11:32:40,780 - mysql.connector - INFO-66- package: mysql.connector.plugins
+2023-04-27 11:32:40,781 - mysql.connector - INFO-67- plugin_name: caching_sha2_password
+2023-04-27 11:32:40,782 - mysql.connector - INFO-71- AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-04-27 11:32:40,783 - root - INFO-27- set the connection with the mysql for read the data
+2023-04-27 11:32:40,783 - root - INFO-29- select the column which we need for the dataset: select online_order,book_table,rate,votes,rest_type,cost,type,city from zomato.zomato_5k;
+2023-04-27 11:32:40,870 - root - INFO-33- read the data
+2023-04-27 11:32:40,872 - root - INFO-35- split the data into train and test
+2023-04-27 11:32:40,872 - root - INFO-38- Created the Artifacts folder for the save the train and test data
+2023-04-27 11:32:40,908 - root - INFO-42- train test and row data has been saved in artifacts folder

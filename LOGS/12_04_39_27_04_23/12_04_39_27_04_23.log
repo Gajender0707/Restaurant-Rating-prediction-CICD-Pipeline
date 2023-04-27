@@ -1,0 +1,5 @@
+2023-04-27 12:04:39,504 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-27 12:04:41,396 - root - INFO-15- define the preprocessor path
+2023-04-27 12:04:41,411 - root - INFO-32- define the  numeric and categorical features
+2023-04-27 12:04:41,412 - root - INFO-43- Define the numeric and categorical pipelines
+2023-04-27 12:04:41,412 - root - INFO-49- define the preprocessor

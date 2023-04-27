@@ -66,9 +66,9 @@ class DataTransformation:
                         logging.info("save the object successfully")
 
                         x_train_array=preprocessor.transform(x_train).toarray()
-                        y_train_array=np.array(y_train).reshape(1,-1)
+                        y_train_array=np.array(y_train)
                         x_test_array=preprocessor.transform(x_test).toarray()
-                        y_test_array=np.array(y_test).reshape(1,-1)
+                        y_test_array=np.array(y_test)
 
                         # print(x_train_array)
                         # print(x_train_array.shape)

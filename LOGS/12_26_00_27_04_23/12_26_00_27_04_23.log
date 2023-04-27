@@ -1,0 +1,22 @@
+2023-04-27 12:26:00,322 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-27 12:26:02,319 - root - INFO-16- define the preprocessor path
+2023-04-27 12:26:02,320 - root - INFO-27- define the  numeric and categorical features
+2023-04-27 12:26:02,320 - root - INFO-38- Define the numeric and categorical pipelines
+2023-04-27 12:26:02,321 - root - INFO-44- define the preprocessor
+2023-04-27 12:26:02,346 - root - INFO-27- define the  numeric and categorical features
+2023-04-27 12:26:02,346 - root - INFO-38- Define the numeric and categorical pipelines
+2023-04-27 12:26:02,350 - root - INFO-44- define the preprocessor
+2023-04-27 12:26:02,350 - root - INFO-62- fetch the prerocessor Successfully.
+2023-04-27 12:26:02,396 - root - INFO-10- ColumnTransformer(transformers=[('num_features',
+                                 Pipeline(steps=[('imputing', SimpleImputer()),
+                                                 ('Scaling',
+                                                  StandardScaler())]),
+                                 ['votes', 'cost']),
+                                ('cat_features',
+                                 Pipeline(steps=[('Imputing',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('Encoding',
+                                                  OneHotEncoder())]),
+                                 ['online_order', 'book_table', 'rest_type',
+                                  'type', 'city'])]) will the save the object in Artifacts\Preprocessor.pkl path..
+2023-04-27 12:26:02,405 - root - INFO-65- save the object successfully

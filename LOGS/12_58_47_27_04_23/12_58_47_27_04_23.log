@@ -1,0 +1,31 @@
+2023-04-27 12:58:47,432 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-27 12:58:49,200 - root - INFO-17- define the preprocessor path
+2023-04-27 12:58:49,268 - root - INFO-16- give the row data,train and test path to store the data.
+2023-04-27 12:58:49,321 - mysql.connector - INFO-66- package: mysql.connector.plugins
+2023-04-27 12:58:49,321 - mysql.connector - INFO-67- plugin_name: caching_sha2_password
+2023-04-27 12:58:49,322 - mysql.connector - INFO-71- AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-04-27 12:58:49,323 - root - INFO-29- set the connection with the mysql for read the data
+2023-04-27 12:58:49,324 - root - INFO-31- select the column which we need for the dataset: select online_order,book_table,rate,votes,rest_type,cost,type,city from zomato.zomato_5k;
+2023-04-27 12:58:49,412 - root - INFO-35- read the data
+2023-04-27 12:58:49,415 - root - INFO-37- split the data into train and test
+2023-04-27 12:58:49,416 - root - INFO-40- Created the Artifacts folder for the save the train and test data
+2023-04-27 12:58:49,451 - root - INFO-44- train test and row data has been saved in artifacts folder
+2023-04-27 12:58:49,503 - root - INFO-28- define the  numeric and categorical features
+2023-04-27 12:58:49,504 - root - INFO-39- Define the numeric and categorical pipelines
+2023-04-27 12:58:49,504 - root - INFO-45- define the preprocessor
+2023-04-27 12:58:49,504 - root - INFO-63- fetch the prerocessor Successfully.
+2023-04-27 12:58:49,527 - root - INFO-11- ColumnTransformer(transformers=[('num_features',
+                                 Pipeline(steps=[('imputing', SimpleImputer()),
+                                                 ('Scaling',
+                                                  StandardScaler())]),
+                                 ['votes', 'cost']),
+                                ('cat_features',
+                                 Pipeline(steps=[('Imputing',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('Encoding',
+                                                  OneHotEncoder())]),
+                                 ['online_order', 'book_table', 'rest_type',
+                                  'type', 'city'])]) will the save the object in Artifacts\Preprocessor.pkl path..
+2023-04-27 12:58:49,529 - root - INFO-66- save the object successfully
+2023-04-27 12:58:49,544 - root - INFO-23- define the model saving path
+2023-04-27 12:58:49,544 - root - INFO-31- Define the training and testing array for x and y

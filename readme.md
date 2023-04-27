@@ -37,6 +37,7 @@ scikit-learn
 xgboost
 flask
 dill
+mysql-connector-python
  ```
 *** 
  ## ⚙️Structure Used

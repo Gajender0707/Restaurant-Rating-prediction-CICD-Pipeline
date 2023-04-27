@@ -40,7 +40,7 @@ dill
 mysql-connector-python
  ```
 *** 
- ## ⚙️Structure Used
+ ## Structure Used
  ### There are structure used for different-different work:
  * ```setup.py```This contains all details about the Project.
  * ```requirements.txt``` Contains the all the libraries used in the project.

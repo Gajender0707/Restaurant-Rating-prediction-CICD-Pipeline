@@ -13,5 +13,9 @@ import pandas as pd
 # print(type(result_dataFrame))
 # print(result_dataFrame.shape)
 
-d={"name":29,"class":3}
-print(d["name"])
+d={"Akash":29,"Rahul":3,"sanju":100,"umesh":200}
+# print(d["name"])
+best_model_name=max(d)
+print(best_model_name)
+print(f"best score: {d[best_model_name]}")
+

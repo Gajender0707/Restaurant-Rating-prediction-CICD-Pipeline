@@ -35,14 +35,35 @@ class ModelTrainer:
                 "KNeighborsClassifier":KNeighborsClassifier(),
                     "LogisticRegression":LogisticRegression()}
             logging.info("Models Are defined Successfully.")
-            
-            score_report=model_training(models,x_train_array,y_train_array,x_test_array,y_test_array)
-            logging.info(f"Score report has been recieved which has the score and model respectivly : {score_report}")
+        
             
             ##HypertuneParamter
+            param={
+                "RandomForestClassifier":{
+            'criterion':['log_loss', 'gini', 'entropy'],
+                    'max_features':['sqrt','log2'],
+                    'n_estimators': [8,16,32,64,128,256] },
+        
+                "DecisionTreeClassifier":{
+           'criterion':['log_loss', 'gini', 'entropy'],
+                    'splitter':['best','random'],
+                    'max_features':['sqrt','log2']},
+        
+                "KNeighborsClassifier":{'n_neighbors' : [5,7,9,11,13,15],
+               'weights' : ['uniform','distance'],
+               'metric' : ['minkowski','euclidean','manhattan']},
+        
+                "LogisticRegression":{}
+                                            }
             
-
-
-
+            score_dict=model_training(param=param,models=models,x_train_array=x_train_array,y_train_array=y_train_array,x_test_array=x_test_array,y_test_array=y_test_array)
+            best_model_name=max(list(score_dict))
+            best_model_score=score_dict[best_model_name]
+            best_model=models[best_model_name]
+            logging.info(f"Best model has been found and best model is {best_model_name } with test accuracy of {best_model_score}")
+            # print(f"This is the best model {best_model} and it has the score of { best_model_score}")
+            save_object(best_model,self.model_saving_path.model_path)
+            logging.info("model has been save successfully")
+            
         except Exception as e:
             raise CustomException(e)

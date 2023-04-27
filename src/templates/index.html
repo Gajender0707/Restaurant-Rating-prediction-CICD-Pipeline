@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato rating prediction</title>
+</head>
+<body >
+    <img src="https://user-images.githubusercontent.com/92681972/233918490-f22e93c9-49fa-40a8-8e76-ad996c29be70.png" alt="Flowers in Chania">
+    <h1 style="color: red;text-align: center;">
+        Zomato
+    </h1>
+    <h3 style="color: green;text-align: center;">
+        Here Fill the Fields for Predict the Rating of the restaurant.
+    </h3>
+    <form action="predict" method="post">
+        <label for="online_order">Online Order</label>
+        <select id="online_order" name="online_order">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <label for="book_table">Book  Table</label>
+        <select id="book_table" name="book_table">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <label for="votes">Votes</label>
+        <input type="number" id="votes" name="votes">
+        <br>
+        <br>
+        <label for="rest_type">Rest Type</label>
+        <select id="rest_type" name="rest_type">
+            <option value="Quick Bites">Quick Bites</option>
+            <option value="Casual Dining">Casual Dining</option>
+            <option value="Cafe">Cafe</option>
+            <option value="Other Rest Type">Other Rest Type</option>
+            <option value="Delivery">Delivery</option>
+            <option value="Dessert Parlor">Dessert Parlor</option>
+            <option value="Takeaway, Delivery">Takeaway, Delivery</option>
+            <option value="Casual Dining, Bar">Casual Dining, Bar</option>
+            <option value="Bakery">Bakery</option>
+            <option value="Beverage Shop">Beverage Shop</option>
+            <option value="Bar">Bar</option>
+            <option value="Food Court">Food Court</option>
+            <option value="Sweet Shop">Sweet Shop</option>
+            <option value="Bar, Casual Dining">Bar, Casual Dining</option>
+            <option value="Lounge">Lounge</option>
+            <option value="Pub">Pub</option>
+            <option value="Fine Dining">Fine Dining</option>
+            <option value="Casual Dining, Cafe">Casual Dining, Cafe</option>
+            <option value="Beverage Shop, Quick Bites">Beverage Shop, Quick Bites</option>
+            <option value="Bakery, Quick Bites">Bakery, Quick Bites</option>
+            <option value="Mess">Mess</option>
+            <option value="Pub, Casual Dining">Pub, Casual Dining</option>
+        </select>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+        <label for="cost">Cost</label>
+        <input type="number" id="cost" name="cost">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        &nbsp; &nbsp; &nbsp; 
+        <label for="type">Type</label>
+        <select id="type" name="type">
+            <option value="Delivery">Delivery</option>
+            <option value="Dine-out">Dine-out</option>
+            <option value="Desserts">Desserts</option>
+            <option value="Cafes">Cafes</option>
+            <option value="Drinks & nightlife">Drinks & nightlife</option>
+            <option value="Buffet">Buffet</option>
+            <option value="Pubs and bars">Pubs and bars</option>
+        </select>
+            <br>
+            <br>
+            <label for="city">City</label>
+            <select id="city" name="city">
+            <option value="Banashankari">Banashankari</option>
+            <option value="Bannerghatta Road">Bannerghatta Road</option>
+            <option value="Basavanagudi">Basavanagudi</option>
+            <option value="Bellandur">Bellandur</option>
+            <option value="Brigade Road">Brigade Road</option>
+            <option value="Brookefield">Brookefield</option>
+            <option value="BTM">BTM</option>
+            <option value="Church Street">Church Street</option>
+            <option value="Electronic City">Electronic City</option>
+            <option value="Frazer Town">Frazer Town</option>
+            <option value="HSR">HSR</option>
+            <option value="Indiranagar">Indiranagar</option>
+            <option value="Jayanagar">Jayanagar</option>
+            <option value="JP Nagar">JP Nagar</option>
+            <option value="Kalyan Nagar">Kalyan Nagar</option>
+            <option value="Kammanahalli">Kammanahalli</option>
+            <option value="Koramangala 4th Block">Koramangala 4th Block</option>
+            <option value="Koramangala 5th Block">Koramangala 5th Block</option>
+            <option value="Koramangala 6th Block">Koramangala 6th Block</option>
+            <option value="oramangala 7th Block">oramangala 7th Block</option>
+            <option value="Lavelle Road">Lavelle Road</option>
+            <option value="Malleshwaram">Malleshwaram</option>
+            <option value="Marathahalli">Marathahalli</option>
+            <option value="MG Road">MG Road</option>
+            <option value="New BEL Road">New BEL Road</option>
+            <option value="Old Airport Road">Old Airport Road</option>
+            <option value="Rajajinagar">Rajajinagar</option>
+            <option value="Residency Road">Residency Road</option>
+            <option value="Sarjapur Road">Sarjapur Road</option>
+            <option value="Whitefield">Whitefield</option>
+        </select>
+
+
+    </form>
+    
+</body>
+</html>

@@ -5,6 +5,7 @@ from dataclasses import dataclass
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import mysql.connector as connection
+from data_transformation import DataTransformation,DataTransformationConfig
 
 @dataclass
 class DataIngestionConfig:
@@ -49,5 +50,5 @@ class DataIngestion:
 if __name__=="__main__":
     data_ingestion_obj=DataIngestion()
     train_path,test_path=data_ingestion_obj.Initiate_data_ingestion()
-    # print(train_path,test_path)
-
+    data_transformation_obj=DataTransformation()
+    x_train_array,y_train_array,x_test_array,y_test_array=data_transformation_obj.Intiate_data_transformation(train_data_path=train_path,test_data_path=test_path)

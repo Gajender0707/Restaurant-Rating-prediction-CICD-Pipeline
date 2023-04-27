@@ -26,7 +26,7 @@ To predict the rating of the restaurant.
 <img width="1006" alt="tour_package" src="https://user-images.githubusercontent.com/92681972/232985096-7026b3ec-d469-442b-beb4-f5209d08acf9.png">
  Our Website will be look like and when we hit the submit button prediction will happen. adn output will be that customer will take the package or customer will not the package.
  
- ##Library Used
+ ## Library Used
  There will be file named requirement.txt which will contain all these libraries used in project.
  ```
  pandas

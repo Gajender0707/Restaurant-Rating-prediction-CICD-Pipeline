@@ -24,7 +24,7 @@ To predict the rating of the restaurant.
 ***
 ## 📷Demo Photos
 <img width="958" alt="image" src="https://user-images.githubusercontent.com/92681972/235066020-5724f7e1-550b-48a2-a6e5-df0ab717d490.png">
-<img width="959" alt="image" src="https://user-images.githubusercontent.com/92681972/235066068-06e6e346-fd5e-47c6-8fc8-6c0c9a65c55e.png">
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/92681972/235066317-dbddbfc9-b6f1-4721-8194-5a694f84da49.png">
 
  Our Website will be look like and when we hit the submit button prediction will happen. adn output will be that customer will take the package or customer will not the package.
  

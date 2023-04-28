@@ -1,0 +1,6 @@
+2023-04-28 10:48:09,082 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-28 10:48:11,082 - root - INFO-17- define the preprocessor path
+2023-04-28 10:48:11,222 - root - INFO-16- give the row data,train and test path to store the data.
+2023-04-28 10:48:11,255 - root - INFO-8- Lineno find
+2023-04-28 10:48:11,255 - root - INFO-12- Set the Error message .
+2023-04-28 10:48:11,289 - root - INFO-22- Create the function to return the error message..

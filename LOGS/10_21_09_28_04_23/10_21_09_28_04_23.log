@@ -1,0 +1,21 @@
+2023-04-28 10:21:09,904 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-28 10:21:15,767 - root - INFO-17- get all the data
+2023-04-28 10:21:15,771 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:21:16,182 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:21:16,550 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['Yes' 'Yes' '775' 'Casual Dining' '800' 'Buffet' 'Banashankari']]
+2023-04-28 10:21:16,554 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:21:16,604 - werkzeug - WARNING-186-  * Debugger is active!
+2023-04-28 10:21:16,606 - werkzeug - INFO-186-  * Debugger PIN: 184-746-279
+2023-04-28 10:21:29,930 - root - INFO-17- get all the data
+2023-04-28 10:21:29,931 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['Yes' 'Yes' '456' 'Quick Bites' '456' 'Delivery' 'Banashankari']]
+2023-04-28 10:21:29,931 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:21:29,958 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:21:29] "POST /predict HTTP/1.1" 200 -
+2023-04-28 10:22:27,250 - root - INFO-17- get all the data
+2023-04-28 10:22:27,250 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['Yes' 'Yes' '456' 'Quick Bites' '456' 'Delivery' 'Banashankari']]
+2023-04-28 10:22:27,251 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:22:27,268 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:22:27] "POST /predict HTTP/1.1" 200 -
+2023-04-28 10:22:37,883 - root - INFO-17- get all the data
+2023-04-28 10:22:37,883 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['Yes' 'Yes' '456' 'Quick Bites' '456' 'Delivery' 'Banashankari']]
+2023-04-28 10:22:37,885 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:22:37,886 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:22:37] "POST /predict HTTP/1.1" 200 -
+2023-04-28 10:22:52,321 - werkzeug - INFO-186-  * Detected change in 'c:\\users\\asdf\\documents\\d.s\\ineuron-projects\\restaurant-rating-prediction\\src\\app.py', reloading

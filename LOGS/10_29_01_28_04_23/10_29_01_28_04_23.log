@@ -1,0 +1,4 @@
+2023-04-28 10:29:01,236 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-28 10:29:03,087 - werkzeug - WARNING-186-  * Debugger is active!
+2023-04-28 10:29:03,089 - werkzeug - INFO-186-  * Debugger PIN: 184-746-279
+2023-04-28 10:29:04,332 - werkzeug - INFO-186-  * Detected change in 'c:\\users\\asdf\\documents\\d.s\\ineuron-projects\\restaurant-rating-prediction\\src\\app.py', reloading

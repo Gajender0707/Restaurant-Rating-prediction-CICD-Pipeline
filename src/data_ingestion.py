@@ -24,7 +24,7 @@ class DataIngestion:
     def Initiate_data_ingestion(self):
         try:
 
-            # data=pd.read_csv(r"C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\data\Zomato_5k.csv")
+            # data=pd.read_csv(r"C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\data\Zomato_data.csv")
             mydb = connection.connect(host="localhost", database = 'zomato',user="root", passwd="Gajender@123",use_pure=True)
             logging.info("set the connection with the mysql for read the data")
             query = "select online_order,book_table,rate,votes,rest_type,cost,type,city from zomato.zomato_5k;"

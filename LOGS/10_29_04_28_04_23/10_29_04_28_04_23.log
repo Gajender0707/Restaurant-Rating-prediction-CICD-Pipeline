@@ -1,0 +1,10 @@
+2023-04-28 10:29:04,920 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-28 10:29:06,815 - werkzeug - WARNING-186-  * Debugger is active!
+2023-04-28 10:29:06,816 - werkzeug - INFO-186-  * Debugger PIN: 184-746-279
+2023-04-28 10:29:09,431 - root - INFO-17- get all the data
+2023-04-28 10:29:09,431 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:29:09,529 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:29:09,619 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['Yes' 'Yes' '456' 'Quick Bites' '456' 'Delivery' 'Banashankari']]
+2023-04-28 10:29:09,619 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:29:09,656 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:29:09] "POST /predict HTTP/1.1" 200 -
+2023-04-28 10:33:49,097 - werkzeug - INFO-186-  * Detected change in 'c:\\Users\\asdf\\Documents\\D.S\\INEURON-PROJECTS\\Restaurant-Rating-Prediction\\src\\app.py', reloading

@@ -1,0 +1,74 @@
+2023-04-28 10:37:17,729 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-28 10:37:19,835 - werkzeug - WARNING-186-  * Debugger is active!
+2023-04-28 10:37:19,839 - werkzeug - INFO-186-  * Debugger PIN: 184-746-279
+2023-04-28 10:37:46,161 - root - INFO-17- get all the data
+2023-04-28 10:37:46,161 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:37:46,258 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:37:46,354 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['No' 'Yes' '234' 'Casual Dining' '40' 'Cafes' 'Banashankari']]
+2023-04-28 10:37:46,354 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:37:46,392 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:37:46] "POST /predict HTTP/1.1" 200 -
+2023-04-28 10:37:52,770 - root - INFO-17- get all the data
+2023-04-28 10:37:52,770 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:37:52,771 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:37:52,841 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['Yes' 'Yes' '' 'Quick Bites' '' 'Delivery' 'Bannerghatta Road']]
+2023-04-28 10:37:52,842 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:37:52,845 - root - INFO-8- Lineno find
+2023-04-28 10:37:52,846 - root - INFO-12- Set the Error message .
+2023-04-28 10:37:52,846 - root - INFO-22- Create the function to return the error message..
+2023-04-28 10:37:52,952 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:37:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-04-28 10:37:53,049 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:37:53] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-28 10:37:53,058 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:37:53] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-28 10:37:53,099 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:37:53] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:37:53,133 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:37:53] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:38:08,826 - root - INFO-17- get all the data
+2023-04-28 10:38:08,826 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:38:08,827 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:38:08,897 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['No' 'Yes' '234' 'Casual Dining' '40' 'Cafes' 'Bellandur']]
+2023-04-28 10:38:08,897 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:38:08,942 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:08] "POST /predict HTTP/1.1" 200 -
+2023-04-28 10:38:17,727 - root - INFO-17- get all the data
+2023-04-28 10:38:17,727 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:38:17,728 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:38:17,792 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['No' 'Yes' '234' 'Casual Dining' '40' 'Cafes' 'oramangala 7th Block']]
+2023-04-28 10:38:17,792 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:38:17,799 - root - INFO-8- Lineno find
+2023-04-28 10:38:17,799 - root - INFO-12- Set the Error message .
+2023-04-28 10:38:17,800 - root - INFO-22- Create the function to return the error message..
+2023-04-28 10:38:17,816 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-04-28 10:38:17,836 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-28 10:38:17,860 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-28 10:38:17,894 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:38:17,927 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:38:37,293 - root - INFO-17- get all the data
+2023-04-28 10:38:37,293 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:38:37,295 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:38:37,353 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['No' 'Yes' '234' 'Casual Dining' '40' 'Cafes' 'Koramangala 6th Block']]
+2023-04-28 10:38:37,354 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:38:37,358 - root - INFO-8- Lineno find
+2023-04-28 10:38:37,358 - root - INFO-12- Set the Error message .
+2023-04-28 10:38:37,359 - root - INFO-22- Create the function to return the error message..
+2023-04-28 10:38:37,371 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-04-28 10:38:37,392 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-28 10:38:37,414 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-28 10:38:37,451 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:38:37,487 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:38:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:40:34,424 - root - INFO-17- get all the data
+2023-04-28 10:40:34,425 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:40:34,425 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:40:34,485 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['No' 'Yes' '234' 'Casual Dining' '40' 'Cafes' 'Koramangala 6th Block']]
+2023-04-28 10:40:34,485 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:40:34,489 - root - INFO-8- Lineno find
+2023-04-28 10:40:34,489 - root - INFO-12- Set the Error message .
+2023-04-28 10:40:34,490 - root - INFO-22- Create the function to return the error message..
+2023-04-28 10:40:34,507 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:40:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-04-28 10:40:34,541 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:40:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-28 10:40:34,558 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:40:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-28 10:40:34,591 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:40:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:40:34,625 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:40:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:44:39,995 - root - INFO-17- get all the data
+2023-04-28 10:44:39,995 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:44:39,996 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:44:40,059 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['No' 'Yes' '234' 'Casual Dining' '40' 'Cafes' 'Bannerghatta Road']]
+2023-04-28 10:44:40,060 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:44:40,095 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:44:40] "POST /predict HTTP/1.1" 200 -
+2023-04-28 10:47:55,883 - werkzeug - INFO-186-  * Detected change in 'c:\\users\\asdf\\documents\\d.s\\ineuron-projects\\restaurant-rating-prediction\\src\\data_ingestion.py', reloading

@@ -1,0 +1,17 @@
+2023-04-28 10:22:53,025 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-28 10:22:54,894 - root - INFO-17- get all the data
+2023-04-28 10:22:54,895 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-28 10:22:54,987 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-28 10:22:55,080 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['Yes' 'Yes' '775' 'Casual Dining' '800' 'Buffet' 'Banashankari']]
+2023-04-28 10:22:55,080 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:22:55,124 - werkzeug - WARNING-186-  * Debugger is active!
+2023-04-28 10:22:55,128 - werkzeug - INFO-186-  * Debugger PIN: 184-746-279
+2023-04-28 10:22:55,662 - root - INFO-17- get all the data
+2023-04-28 10:22:55,662 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['Yes' 'Yes' '' 'Quick Bites' '' 'Delivery' 'Banashankari']]
+2023-04-28 10:22:55,663 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-28 10:22:55,671 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:22:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-04-28 10:22:55,759 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:22:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-28 10:22:55,762 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:22:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-28 10:22:55,781 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:22:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:22:55,801 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 10:22:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-28 10:24:38,482 - werkzeug - INFO-186-  * Detected change in 'c:\\users\\asdf\\documents\\d.s\\ineuron-projects\\restaurant-rating-prediction\\src\\app.py', reloading

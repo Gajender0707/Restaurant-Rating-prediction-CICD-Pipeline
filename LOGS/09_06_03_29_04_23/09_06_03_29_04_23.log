@@ -1,0 +1,13 @@
+2023-04-29 09:06:03,436 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-29 09:06:04,816 - werkzeug - WARNING-186-  * Debugger is active!
+2023-04-29 09:06:04,821 - werkzeug - INFO-186-  * Debugger PIN: 184-746-279
+2023-04-29 09:06:08,539 - werkzeug - INFO-186- 127.0.0.1 - - [29/Apr/2023 09:06:08] "GET / HTTP/1.1" 200 -
+2023-04-29 09:06:08,714 - werkzeug - INFO-186- 127.0.0.1 - - [29/Apr/2023 09:06:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-04-29 09:06:32,361 - root - INFO-17- get all the data
+2023-04-29 09:06:32,366 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\Preprocessor.pkl
+2023-04-29 09:06:32,978 - root - INFO-21- object is loading from the this path C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Restaurant-Rating-Prediction\Artifacts\model.pkl
+2023-04-29 09:06:33,512 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['No' 'No' '999' 'Bar' '50' 'Cafes' 'Bellandur']]
+2023-04-29 09:06:33,514 - root - INFO-32- Create the dataframe for the input of Model 
+2023-04-29 09:06:33,618 - werkzeug - INFO-186- 127.0.0.1 - - [29/Apr/2023 09:06:33] "POST /predict HTTP/1.1" 200 -
+2023-04-29 09:07:05,206 - werkzeug - INFO-186- 127.0.0.1 - - [29/Apr/2023 09:07:05] "GET / HTTP/1.1" 200 -
+2023-04-29 09:07:05,713 - werkzeug - INFO-186- 127.0.0.1 - - [29/Apr/2023 09:07:05] "GET / HTTP/1.1" 200 -

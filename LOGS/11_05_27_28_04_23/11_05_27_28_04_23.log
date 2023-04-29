@@ -14,3 +14,4 @@
 2023-04-28 11:23:31,564 - root - INFO-29- get the data points and reshape them for fit the dataframe and data points are: [['No' 'No' '392' 'Other Rest Type' '500' 'Dine-out' 'Bannerghatta Road']]
 2023-04-28 11:23:31,564 - root - INFO-32- Create the dataframe for the input of Model 
 2023-04-28 11:23:31,658 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 11:23:31] "POST /predict HTTP/1.1" 200 -
+2023-04-28 12:03:56,503 - werkzeug - INFO-186- 127.0.0.1 - - [28/Apr/2023 12:03:56] "GET / HTTP/1.1" 200 -

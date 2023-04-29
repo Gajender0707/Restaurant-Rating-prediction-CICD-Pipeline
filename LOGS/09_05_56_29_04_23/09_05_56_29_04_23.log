@@ -1,0 +1,5 @@
+2023-04-29 09:05:56,796 - root - INFO-16- Define the Customexception class using predefind class Exception.
+2023-04-29 09:06:03,101 - werkzeug - INFO-186- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-29 09:06:03,102 - werkzeug - INFO-186- [33mPress CTRL+C to quit[0m
+2023-04-29 09:06:03,104 - werkzeug - INFO-186-  * Restarting with stat
